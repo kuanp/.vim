@@ -3,6 +3,7 @@
 This folder contains all necessary pieces to make vim work like I would personally want it.
 
 SET UP:
+
 1. git clone this folder to ~/
 
 2. move vimrc to ~/.vimrc
