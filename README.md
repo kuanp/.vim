@@ -9,4 +9,4 @@ SET UP:
 2. run ./install.sh
 
 3. (set your terminal to solaris colors, usually on your mac side)
-  On your mac, git clone the repo, unzip change-solarized-color.tar.gz using explorer, and double click on the extract folder, then open the light.term
+  On your mac, also do 1&2, and go up  one directory using explorer to open the change-solarized-color folder. Double click on one of the term color options.
