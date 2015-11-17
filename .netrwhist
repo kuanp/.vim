@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/kuan/ia_src/backend/data-server/lib/logging'
+let g:netrw_dirhist_2='/home/kuan/ia_src/backend/simple_monitor'
+let g:netrw_dirhist_3='/home/kuan/ia_src/backend/data-server/tests'
+let g:netrw_dirhist_4='/home/kuan/ia_src/backend/string_server/py/thriftcommon'
+let g:netrw_dirhist_5='/home/kuan/ia_src/backend/string_server'
+let g:netrw_dirhist_6='/home/kuan/ia_src/backend/import_server/jsonfilters'
+let g:netrw_dirhist_7='/home/kuan/.vim'

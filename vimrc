@@ -9,7 +9,8 @@
 		set background=dark
  endif
 
- set background=light
+ set background=dark
+ "set background=light
  colorscheme solarized
  "colorscheme blackboard
 
@@ -29,13 +30,9 @@
  set showmatch
  set mouse=a
  set columns=80
- "set textwidth=79
- "set wm=2
+ set textwidth=79
+ set wm=2
 
- set tabstop=2
- set shiftwidth=2
- set softtabstop=2
- set expandtab
  set number
  set ai
  filetype plugin indent on
@@ -55,3 +52,9 @@
  autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
  autocmd InsertLeave * match ExtraWhitespace /\s\+$/
  autocmd BufWinLeave * call clearmatches()
+
+ set tabstop=2
+ set shiftwidth=2
+ set expandtab
+ "set softtabstop=2
+
