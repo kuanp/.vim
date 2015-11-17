@@ -32,10 +32,6 @@
  "set textwidth=79
  "set wm=2
 
- set tabstop=2
- set shiftwidth=2
- set softtabstop=2
- set expandtab
  set number
  set ai
  filetype plugin indent on
@@ -55,3 +51,8 @@
  autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
  autocmd InsertLeave * match ExtraWhitespace /\s\+$/
  autocmd BufWinLeave * call clearmatches()
+
+ set tabstop=2
+ set shiftwidth=2
+ set expandtab
+ "set softtabstop=2
