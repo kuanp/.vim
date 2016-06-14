@@ -9,26 +9,31 @@
 		set background=dark
  endif
 
- set background=light
+ set background=dark
  colorscheme solarized
  "colorscheme blackboard
 
  set wildmenu
 
+ "folding options
  let c_no_curly_error=1
  set foldmethod=syntax
  nnoremap <space> za
- set incsearch
  nnoremap ^ 0
+
+ "ignores case while searching
  set ignorecase
  set smartcase
+ set incsearch
+ set hlsearch
+
  set scrolloff=3
  set cindent
  set autoindent
  set showcmd
  set showmatch
  set mouse=a
- set columns=80
+ set columns=83  "80 actual, due to line numbers
  "set textwidth=79
  "set wm=2
 
